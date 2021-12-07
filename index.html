@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <title>Gerrymandering in the Deep South</title>
+        <link rel="shortcut icon" href="img/gerrymandering.png"/>
+        
+        <!--external stylesheets-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css">
+        <link rel="stylesheet" href="https://www.fontspace.com/brotherland-font-f45318">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+         <!--dropdown-->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Select state:</button>
+    <div id="myDropdown" class="dropdown-content">
+        <a href="#alabama-title">Alabama</a>
+        <a href="#georgia-title">Georgia</a>
+        <a href="#louisiana-title">Louisiana</a>
+        <a href="#mississippi-title">Mississippi</a>
+        <a href="#sc-title">South Carolina</a>
+    </div>
+</div>
+
+        <h1 class="main-title">Gerrymandering in the Deep South</h1>
+        
+        <c1 id="pic-title"><b><i>Deep South Subregion</i></b></c1>
+        
+        <c2 id="pic-title"><b><i>(States in Dark Red)</i></b></c2>
+        
+        <p class="preface"><b>What is <i>gerrymandering?</i></b><br><br>People sometimes discuss how redistricting may be used to 'gerrymander' election district boundaries. Gerrymandering is the practice of redrawing election boundaries to provide a political party or organization an undeserved political advantage.<br><br>
+
+            In racial gerrymandering, state legislators utilize race as the primary consideration in determining district boundaries, and they do it in a way that violates the Voting Rights Act. The impact of voters of color is frequently diluted as a result of this approach. One strategy is to "pack" communities of color into a limited number of districts in order to diminish their voting strength when they would otherwise be a powerful voting bloc in several districts. Districts can also be established to dilute a minority group's voting strength by "cracking" the town into many mostly white districts.
+        
+        <br><br><b>What is <i>redistricting?</i></b><br><br>States revise electoral district borders every ten years, including this year, using population data from the Decennial Census. The electoral boundaries for representation in Congress, state legislatures, and numerous county and municipal offices are determined by these district lines. This is referred to as 'redistricting.'</p>
+        
+        <button id="myBtn"><a href="#top" style="color: white">Top</a></button>
+        
+        <figure>
+        <figcaption>Source: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Map_of_USA_Deep_South.svg/1920px-Map_of_USA_Deep_South.svg.png</figcaption>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Map_of_USA_Deep_South.svg/1920px-Map_of_USA_Deep_South.svg.png" class="deep_south" alt="Deep South" width="1100px">
+        </figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Alabama.svg/1280px-Flag_of_Alabama.svg.png" class="flag1" alt="Flag of Alabama" width="100px">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Georgia_%28U.S._state%29.svg/1280px-Flag_of_Georgia_%28U.S._state%29.svg.png" class="flag2" alt="Flag of Georgia" width="100px">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Louisiana.svg/1920px-Flag_of_Louisiana.svg.png" class="flag3" alt="Flag of Louisiana" width="100px">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Mississippi.svg/1920px-Flag_of_Mississippi.svg.png" class="flag4" alt="Flag of Mississippi" width="100px">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Flag_of_South_Carolina.svg/1280px-Flag_of_South_Carolina.svg.png" class="flag5" alt="Flag of South Carolina" width="100px">
+        
+        
+        <h1 id="alabama-title">Alabama</h1>
+
+        <div id="alabama-map">
+            <button id="alabama-static-1970">1970</button>
+            <button id="alabama-static-1980">1980</button>
+            <button id="alabama-static-1990">1990</button>
+            <button id="alabama-static-2000">2000</button>
+            <button id="alabama-static-2010">2010</button>
+        </div>
+        
+        <div style = "position:absolute; width: 77%; top: 2265px;">
+        <ul><li>The United States Constitution safeguards against maps that "pack" or "crack" Black voters, both of which have been used by Alabama in the past to weaken their political strength. Packing is a term used to describe a situation in which one neighborhood has an overly high black population. Cracking is the division of black communities into various districts.</li><br><li>Current maps in the State Legislature show that Black voters are being crammed into many districts in the Montgomery and Birmingham areas in ways that do not represent communities of interest and are much over the thresholds required for Black voters to elect their preferred candidates.</li><br><li>Huntsville's Senate districts, on the other hand, are now divided in a fashion that artificially dilutes Black voting power. These uses of race are not narrowly limited to comply with the VRA, but instead dilute Black voting power in nearby districts excessively and unfairly.</li></ul></div>
+        
+        
+        <h1 id="georgia-title">Georgia</h1>
+
+        <div id="georgia-map">
+            <button id="georgia-static-1970">1970</button>
+            <button id="georgia-static-1980">1980</button>
+            <button id="georgia-static-1990">1990</button>
+            <button id="georgia-static-2000">2000</button>
+            <button id="georgia-static-2010">2010</button>
+        </div>
+        
+        <div style = "position:absolute; width: 77%; top: 3870px;">
+        <ul><li>Neither group gained many seats in the 1970s, and even after some early advances, they completed the decade with roughly the same number of seats, a pattern that has continued for African-American Senate seats. New maps did not lessen the black representation in the legislature, thanks to Section 5 of the Voting Rights Act and the non-retrogression test applied when considering the anticipated impact of plans. The same cannot be said for Republicans, whose numbers in the House were decreased as a result of Watergate and the Democratic gerrymandering in 2001.</li><br><li>The transition started with the first round of redistricting, which saw the first African-Americans elected to government in decades and the first urban Republicans elected to office. Republican representation in the General Assembly was enhanced by maps established in 1965, 1993, and 2005. In 1965, 1975, 1993, and 2003, 331 African-Americans benefited from the maps. The House tends to see larger gains for both parties than the Senate, which has a considerably smaller membership.</li><br><li>The catalyst in this case was redistricting. It turned a legislature dominated by white, rural, male Democrats into a body controlled by Republicans, with the majority of Democrats being African-Americans. The rise of the Republican Party and African-American progress are inextricably linked. With each redistricting, rural legislators grew scarcer, and women currently make up more than a quarter of the legislature. During the 1980s and 1990s redistricting disputes, Republicans and black Democrats reached across the ideological divide to work together. These two organizations, which even when combined came well short of a legislative majority, gained advances at the expense of white Democrats, aided by the courts, as in Busbee v. Smith, and the Department of Justice's Section 5 reviews, and began the dismantling of the Democratic majority.</li></ul></div>
+        
+        <h1 id="louisiana-title">Louisiana</h1>
+        
+        <div id="louisiana-map">
+            <button id="louisiana-static-1970">1970</button>
+            <button id="louisiana-static-1980">1980</button>
+            <button id="louisiana-static-1990">1990</button>
+            <button id="louisiana-static-2000">2000</button>
+            <button id="louisiana-static-2010">2010</button>
+        </div>
+        
+        <div style = "position:absolute; width: 77%; top: 5730px;">
+        <ul><li>The City of New Orleans is covered by the 2nd Congressional District. To the north, it has a boundary with the highly conservative 1st district, while to the south and west, it shares a border with the moderate 3rd district. Hurricane Katrina wreaked havoc on this neighborhood, and the population has dropped by more than 100,000 individuals since 2004. Because the 1st district is 80 percent white, it cannot be enlarged to the north if the district is to remain a minority-majority district (as the Voting Rights Act would presumably demand, given that it already is). The 3rd district, which has a population of roughly 30% African-American, might be added to the district. By extending the district to sections of the 3rd district, the Democrats in the legislature may be able to maintain it a minority-majority district.</li><br><li>Baton Rouge, the state capital, is included in the 6th Congressional District. The population of the district is now the highest of any in Louisiana. The district will have to add people, but as the state's most populous district, it will have to add the fewest, and thus is unlikely to be absorbed or split among other districts. Baton Rouge provides a strong Democratic foundation for the district. Republicans may attempt to expand the district to the southeast, into regions of the 3rd district that are solidly Republican.</li><br><li>The 7th Congressional District borders Texas and the Gulf of Mexico and is located in the state's southwest corner. According to Congressman Boustany's website, the 7th district is "the center of Cajun Country," and he proudly touts the significance of the oil and natural gas sector to the region, claiming that 25% of all liquefied natural gas in the US passes through it. Democrats in the legislature may try to redesign the district to include Baton Rouge, but given that the district is now only 27% African-American and votes overwhelmingly Republican, redrawing the district to include Baton Rouge would be more difficult than redrawing the 5th or 6th districts.</li></ul></div>
+        
+        <h1 id="mississippi-title">Mississippi</h1>
+        
+        <div id="mississippi-map">
+            <button id="mississippi-static-1970">1970</button>
+            <button id="mississippi-static-1980">1980</button>
+            <button id="mississippi-static-1990">1990</button>
+            <button id="mississippi-static-2000">2000</button>
+            <button id="mississippi-static-2010">2010</button>
+        </div> 
+        
+        <div style = "position:absolute; width: 77%; top: 7592px;">
+        <ul><li>County and municipal redistricting are both susceptible to cracking. Prior to redistricting, three of Warren County's five supervisorial districts were wholly inside the city boundaries of Vicksburg, and all three were majority-black in population. The Warren County Board of Supervisors redrew the boundaries of the five supervisory districts three times, in 1970, 1975, and 1978, such that each district converged on Vicksburg like spokes of a wheel, dividing the black population concentration among the districts.</li><br><li>This type of racial gerrymandering can happen on a huge scale. Between 1968 and 1980, more than half of Mississippi's eighty-two counties redrawn supervisory district boundaries to include urban and rural areas in each of the five districts and split up the municipal population center—which often contained more than half of the county's black population—among the districts.</li><br><li>The county gave a nonracial reason in each of the challenged instances, claiming that it was essential to balance each county supervisor's road and bridge maintenance obligations among the districts. This sort of gerrymandering has been challenged in at least 22 situations through Section 5 objections or federal district court action. However, in certain counties, such district alignments were enacted through court-ordered plans that are immune from examination under the Voting Rights Act, or were never challenged in court.</li></ul></div>
+        
+        <h1 id="sc-title">South Carolina</h1>
+        
+        <div id="sc-map">
+            <button id="sc-static-1970">1970</button>
+            <button id="sc-static-1980">1980</button>
+            <button id="sc-static-1990">1990</button>
+            <button id="sc-static-2000">2000</button>
+            <button id="sc-static-2010">2010</button>
+        </div>
+        
+        <div style = "position:absolute; width: 77%; top: 9285px;">
+        <ul><li>Ward 10 in Richland County is a heavily Democratic precinct in the heart of Republican-leaning Congressional District 2, and has been thus since Floyd Spence switched parties in 1962 and the district followed suit. The majority of Ward 10 is now part of Congressional District 6, which has a tiny corridor that neatly takes Democratic votes from the reliably Republican district, making the Democratic district increasingly safer. Ward 10 voters believe that their votes will have little impact on congressional elections.</li><br><li>In South Carolina, districts are rarely contested. Article 1, Section 4 of the Constitution, both at the state and federal levels, leaves the specifics to the states. The party in power in the South Carolina State Legislature draws the districts. The Election Laws subcommittee is established by the SC House Judiciary Committee to create districts. The chair and two members were Republicans in 2011, and the chair and two members were Democrats, hence the majority won on these issues.</li><br><li>Once the subcommittee has drawn up and agreed on the districts, the new districts must go through the same approval procedure as any other statute: full committee approval, House approval, Senate approval, and Governor approval. It's far too simple for the party in charge of both Houses and the executive branch to create districts that are "packed" and "cracked" using existing technologies.</li></ul></div>
+        
+        <ul class="bottom-list">
+        </ul>
+        
+        <a class="linkedin" href="https://www.linkedin.com/in/daniel-rau-89b660a1/" target="_blank">LinkedIn</a>
+        <a class="about-me" href="https://modimulti.github.io/index.html" target="_blank">About Me</a>
+        <a class="reference" href="http://cdmaps.polisci.ucla.edu/" target="_blank">Reference</a>
+        
+        <!-- scripts-->
+        <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+        
+        <!--external scripts-->
+        <script type="text/javascript" src="lib/jquery.js"></script>
+        <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+        <script src="https://libs.cartocdn.com/carto.js/v4.2.0/carto.min.js"></script>
+        <script src="https://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+        <script src="js/esri-leaflet.js"></script>
+        <script src="js/alabama.js"></script>
+        <script src="js/georgia.js"></script>
+        <script src="js/louisiana.js"></script>
+        <script src="js/mississippi.js"></script>
+        <script src="js/southcarolina.js"></script>
+        
+        
+
+    </body>
+</html>

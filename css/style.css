@@ -1,0 +1,790 @@
+body {
+    margin: 5px;
+    padding: 10px;
+    background: #edd9af;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 32pt;
+    font-style: serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Misc txt */
+
+c1 {
+    position:absolute;
+    font-size: 20px;
+    top: 16.5%;
+    right:18%
+}
+
+c2 {
+    position:absolute;
+    font-size: 16px;
+    top: 18%;
+    right:19%
+}
+
+img {
+    left: 1375px;
+    top: 225px;
+    position: relative;
+}
+
+/* Flag control */
+
+.flag1 {
+    position: absolute;
+    left: 1355px;
+    top: 1040px;
+    border-radius: 8px;
+}
+
+.flag2 {
+    position: absolute;
+    left: 1338px;
+    top: 2650px;
+    border-radius: 8px;
+}
+
+.flag3 {
+    position: absolute;
+    left: 1345px;
+    top: 4510px;
+    border-radius: 8px;
+}
+
+.flag4 {
+    position: absolute;
+    left: 1345px;
+    top: 479.5%;;
+    border-radius: 8px;
+}
+
+.flag5 {
+    position: absolute;
+    left: 1345px;
+    top: 606.5%;;
+    border-radius: 8px;
+}
+.deep_south {
+    top: -750px;
+}
+
+li {
+    line-height: 45px;
+    text-align: left;
+    color: #000000;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000
+        
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    display: inline;
+    margin: 10px;
+    text-align: center
+}
+
+.preface {
+    color: #000000;
+    line-height: 45px;
+    width: 50%;
+    padding: 13px;
+    font-size: 28px
+}
+
+/* Titles, Buttons, Maps */
+
+#alabama-title {
+    position: absolute;
+    top: 79%;
+    left: 46.5%
+}
+
+#alabama-map {
+    position: absolute;
+    border-radius: 8px;
+    height: 85%;
+    width: 95%;
+    top: 85%
+}
+
+#alabama-static-1970 {
+    position: absolute;
+    left: 1050px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#alabama-static-1980 {
+    position: absolute;
+    left: 1150px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#alabama-static-1990 {
+    position: absolute;
+    left: 1250px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#alabama-static-2000 {
+    position: absolute;
+    left: 1350px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#alabama-static-2010 {
+    position: absolute;
+    left: 1450px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#georgia-title {
+    position: absolute;
+    top: 200%;
+    left: 46.5%
+}
+
+#georgia-map {
+    position: absolute;
+    border-radius: 8px;
+    height: 85%;
+    width: 95%;
+    top: 206%
+}
+
+#georgia-static-1970 {
+    position: absolute;
+    left: 1050px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#georgia-static-1980 {
+    position: absolute;
+    left: 1150px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#georgia-static-1990 {
+    position: absolute;
+    left: 1250px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#georgia-static-2000 {
+    position: absolute;
+    left: 1350px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#georgia-static-2010 {
+    position: absolute;
+    left: 1450px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#louisiana-title {
+    position: absolute;
+    top: 340%;
+    left: 45.5%
+}
+
+#louisiana-map {
+    position: absolute;
+    border-radius: 8px;
+    height: 85%;
+    width: 95%;
+    top: 346%
+}
+
+#louisiana-static-1970 {
+    position: absolute;
+    left: 1050px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#louisiana-static-1980 {
+    position: absolute;
+    left: 1150px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#louisiana-static-1990 {
+    position: absolute;
+    left: 1250px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#louisiana-static-2000 {
+    position: absolute;
+    left: 1350px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#louisiana-static-2010 {
+    position: absolute;
+    left: 1450px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#mississippi-title {
+    position: absolute;
+    top: 480%;
+    left: 44.5%
+}
+
+#mississippi-map {
+    position: absolute;
+    border-radius: 8px;
+    height: 85%;
+    width: 95%;
+    top: 486%
+}
+
+#mississippi-static-1970 {
+    position: absolute;
+    left: 1050px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#mississippi-static-1980 {
+    position: absolute;
+    left: 1150px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#mississippi-static-1990 {
+    position: absolute;
+    left: 1250px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#mississippi-static-2000 {
+    position: absolute;
+    left: 1350px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#mississippi-static-2010 {
+    position: absolute;
+    left: 1450px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#sc-title {
+    position: absolute;
+    top: 607%;
+    left: 41.5%
+}
+
+#sc-map {
+    position: absolute;
+    border-radius: 8px;
+    height: 85%;
+    width: 95%;
+    top: 613.25%
+}
+
+#sc-static-1970 {
+    position: absolute;
+    left: 1050px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border: 5px solid #d3d3d3;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#sc-static-1980 {
+    position: absolute;
+    left: 1150px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border: 5px solid #d3d3d3;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#sc-static-1990 {
+    position: absolute;
+    left: 1250px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border: 5px solid #d3d3d3;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#sc-static-2000 {
+    position: absolute;
+    left: 1350px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border: 5px solid #d3d3d3;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#sc-static-2010 {
+    position: absolute;
+    left: 1450px;
+    top: 1080px;
+    z-index: 20000;
+    background-color: #fff;
+    color: #323232;
+    border: 5px solid #d3d3d3;
+    border-radius: 150px;
+    font-weight: 700;
+    font-family: serif;
+    height: 40px;
+    width: 80px;
+    font-size: 20pt;
+        -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Three buttons top right corner */
+.reference {
+    position: absolute;
+    top: 1%;
+    right: 60px;
+    color: #000000;
+    z-index: 20000;
+    font-size: 20px
+}
+
+.linkedin {
+    position: absolute;
+    top: 1%;
+    right: 260px;
+    color: #000000;
+    z-index: 20000;
+    font-size: 20px
+}
+
+.about-me {
+    position: absolute;
+    top: 1%;
+    right: 160px;;
+    color: #000000;
+    z-index: 20000;
+    font-size: 20px
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #8b0000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+    border-radius: 150px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #610000;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+    left: 1590px;
+    top: 50px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/*Floating Back-To-Top Button*/
+    #myBtn {
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 1.2%;
+        max-width: 60px;
+        width: 100%;
+        font-size: 18px;
+        border-color: rgba(85, 85, 85, 0.2);
+        background-color: rgb(100,100,100);
+        padding: .5px;
+        border-radius: 150px;
+
+    }
+/*On Hover Color Change*/
+    #myBtn:hover {
+        background-color: #7dbbf1;
+    }
+
+/* Figure source */
+figcaption {
+    color: #000000;
+    position: absolute;
+    left: 1820px;
+    top: 970px;
+    font-size: 12px;
+    font-style: italic;
+}
